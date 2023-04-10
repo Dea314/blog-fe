@@ -1,0 +1,181 @@
+body {
+  color: #222;
+}
+
+a {
+  cursor: pointer;
+}
+
+main {
+  padding: 1rem;
+  max-width: 97rem;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  margin-bottom: 7rem;
+  align-items: center;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
+header .login-register {
+  text-decoration: none;
+  color: inherit;
+}
+
+header .login-register:hover {
+  text-decoration: underline;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div.post {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+div.post img {
+  max-width: 75%;
+  height: auto;
+}
+
+div.post div.texts h2 {
+  margin: 0;
+  font-size: 2rem;
+  padding-bottom: 0.7rem;
+}
+
+div.post div.texts a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div.post p.info {
+  color: #222;
+  font-size: 0.7rem;
+  font-weight: bold;
+  display: flex;
+  gap: 0.7rem;
+}
+
+div.post p.summary {
+  margin: 0.5rem 0;
+  line-height: 1.7rem;
+}
+form.login,
+form.register {
+  max-width: 400px;
+  margin: 0 auto;
+}
+input {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 7px 0;
+  border: 3px solid #dfdfdf;
+  color: #000000;
+  text-align: center;
+}
+button {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  background-color: #555;
+  border: 0;
+  color: #000000;
+  border-radius: 5px;
+  padding: 7px 0;
+}
+form.login h1,
+form.register h1 {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form.create-post {
+  max-width: 800px;
+  margin: 0 auto;
+}
+div.post-page div.image {
+  max-height: 350px;
+  display: flex;
+  overflow: hidden;
+}
+
+div.post-page div.image img {
+  object-fit: cover;
+  object-position: center center;
+}
+
+div.post-page a {
+  color: #222;
+  text-decoration: underline;
+}
+
+div.post-page h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+div.post-page time {
+  text-align: center;
+  display: block;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #797575;
+}
+div.post-page div.author {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+div.post-page div.content p {
+  line-height: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+
+div.edit-row {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+div.post-page a.edit-btn,
+div.post-page a.delete-btn {
+  background-color: #413f3f;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.7rem 1rem;
+  margin: 1rem 1rem 0 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+a svg {
+  height: 1.1rem;
+}
